@@ -343,11 +343,44 @@ h2
 {
 	text-align: center;
 	margin-top: 20px;
-	background-color: #628BFF
+	background-color: #628BFF;
 	/*padding: 5px;*/
 
 }
 
+/*contact*/
+
+.contactUs 
+{
+	text-align: center;
+
+
+}
+
+label
+{
+	display: block;
+	font-size: 16px;
+	font-family: arial;
+	/*text-align: center;*/
+}
+
+input
+{/*
+	font-family: aemstelregular;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 10px;
+	padding: 10px;
+	border: 0px;
+	color: #ffffff;
+	border-radius: 5px;
+	/*background-color: #628BFF;*/
+}
 
 
 
