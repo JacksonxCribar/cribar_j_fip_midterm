@@ -140,6 +140,7 @@ h2
 	background-color: #628BFF;
 	border-radius: 20px;
 	padding: 5px;
+
 }
 
 #maininfoText
@@ -155,6 +156,7 @@ h2
 {
 	font-family: open_sansregular;
 	margin-top: 10px;
+
 }
 
 #maininfoText p
@@ -239,6 +241,115 @@ h2
 
 
  														/*start of storepage*/
+
+
+#shop
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#products1
+{
+	background-color: #628BFF
+
+}
+
+#shopText h2, p
+{
+	background-color: #628BFF;
+
+}
+
+#productText 
+{
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+#singleBottle
+{
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#sixPack
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+#mainFooter
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+#footerNav ul li
+{
+	display: inline;
+	
+
+}
+
+#footerNav ul li a
+{
+	color: #6d6d6c;
+	transition: all .2s ease-in-out;
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #efefef;
+	color: #999;
+}
+
+
+																	/*start of about*/
+
+#aboutText
+{
+	background-color: #628BFF
+
+}
+
+#aboutText h2, p
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+																	/*start of history*/
+
+
+#mainMaps
+{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #628BFF
+
+
+
+}
+
+#mapsText
+{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #628BFF
+	/*padding: 5px;*/
+
+}
+
+
+
 
 
 
