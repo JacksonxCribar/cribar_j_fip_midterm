@@ -1,0 +1,405 @@
+.hidden
+{
+	display: none;
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	font-family: open_sansregular;
+}
+
+a
+{
+	text-decoration: none;
+	font-family: open_sansbold;
+}
+
+p
+{
+	line-height: 24px;
+	font-family: open_sansregular;
+}
+
+h2
+{
+	font-family: open_sansbold;
+}
+
+																		/*homepage here*/
+
+
+/*overall page content*/
+#container
+{
+	width: 1080px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	border: 20px;
+	border-color: #2B3890;
+}
+
+/*header*/
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	background-color: #628BFF;
+	border-radius: 20px;
+
+}
+
+#logo
+{
+	display: block;
+/*	width: 300px;*/
+	/*background-color:;*/
+	margin-right: auto;
+	
+}
+
+#mainNav
+{
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#search
+{
+	margin-left: auto;
+	/*margin-bottom: 50px;*/
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+#search input
+{
+	width: 150px;
+	border: 1px solid #d1d1d1;
+	border-radius: 20px;
+	padding: 6px 15px 6px 35px; /*trbl*/
+	background-size: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.15) inset;
+}
+
+#mainNav ul
+{
+	margin-top: 75px;
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+}
+
+#mainNav ul li a
+{
+	margin-left: 20px;
+	display: block;
+	width: 85px;
+	background-color: #2B3890;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	transition: all .3s ease-in-out; 
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #efefef;
+	color: #999;
+}
+
+#mainInfo
+{
+	
+	
+	margin-top: 10px;
+	background-color: #628BFF;
+	border-radius: 20px;
+	padding: 5px;
+
+}
+
+#maininfoText
+{
+	font-family: open_sansbold;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#maininfoText h3
+{
+	font-family: open_sansregular;
+	margin-top: 10px;
+
+}
+
+#maininfoText p
+{
+	font-family: open_sansregular;
+	line-height: 20px;
+	
+}
+
+#imageGroup
+{
+	margin-left: 10px;
+
+}
+
+
+
+#mainInfo2
+{
+	margin-top: 10px;
+	background-color: #628BFF;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#maininfoText2
+{
+	font-family: open_sansbold;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	
+	text-align: right;
+	
+}
+
+#maininfoText2 p
+{
+	font-family: open_sansregular;
+	line-height: 20px;
+	margin-top: 10px;
+}
+#imageGroup2
+{
+	margin-top: 1px;
+	border-radius: 10px;
+	margin-right: 10px;
+
+}
+
+
+
+#mainFooter
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+#footerNav ul li
+{
+	display: inline;
+	
+
+}
+
+#footerNav ul li a
+{
+	color: #6d6d6c;
+	transition: all .2s ease-in-out;
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #efefef;
+	color: #999;
+}
+
+/*Main homepage done*/
+
+ 														
+
+
+
+ 														/*start of storepage*/
+
+
+#shop
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+#products1
+{
+	background-color: #628BFF
+
+}
+
+#shopText h2, p
+{
+	background-color: #628BFF;
+
+}
+
+#productText 
+{
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+#singleBottle
+{
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#sixPack
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+#mainFooter
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+#footerNav ul li
+{
+	display: inline;
+	
+
+}
+
+#footerNav ul li a
+{
+	color: #6d6d6c;
+	transition: all .2s ease-in-out;
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #efefef;
+	color: #999;
+}
+
+
+																	/*start of about*/
+
+#aboutText
+{
+	background-color: #628BFF
+
+}
+
+#aboutText h2, p
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+																	/*start of history*/
+
+
+#mainMaps
+{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #628BFF
+
+
+
+}
+
+#mapsText
+{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #628BFF;
+	/*padding: 5px;*/
+
+}
+
+/*contact*/
+
+.contactUs 
+{
+	text-align: center;
+
+
+}
+
+label
+{
+	display: block;
+	font-size: 16px;
+	font-family: arial;
+	/*text-align: center;*/
+}
+
+input
+{/*
+	font-family: aemstelregular;*/
+	/*margin-left: auto;
+	margin-right: auto;*/
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 10px;
+	padding: 10px;
+	border: 0px;
+	color: #ffffff;
+	border-radius: 5px;
+	/*background-color: #628BFF;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
